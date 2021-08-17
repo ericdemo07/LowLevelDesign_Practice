@@ -5,17 +5,17 @@ import models.Car;
 
 public class HandleParking {
 
-	Storage storage;
+	private final Storage storage;
 
 	public HandleParking(int size) {
 		storage = new Storage(size);
 	}
 
-	int park(Car car) {
+	public int park(Car car) {
 		return storage.addCar(car);
 	}
 
-	int leave(int parkingSpot) {
+	public int remove(int parkingSpot) {
 		return storage.removeCar(parkingSpot);
 	}
 }
