@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
+import java.util.stream.Collectors;
 
 import models.Car;
 import models.Parking;
@@ -53,5 +54,35 @@ public class Storage {
 		availableParkingSpots.add(parkingSpot);
 
 		return parkingSpot;
+	}
+
+	public List<String> getRegistrationNumberOfAllCarsOfColor(String color) {
+		return dataWarehouse.stream().filter(e -> color.equals(e.getColor())).map(e -> e.getRegistrationNumber())
+				.collect(Collectors.toList());
+	}
+
+	public int getSlotNumberByCarNumber(String carNumber) {
+		int slot = -1;
+
+		for (Map.Entry<Integer, Car> entry : activeParkingMap.entrySet()) {
+			if (carNumber.equals(entry.getValue().getRegistrationNumber())) {
+				slot = entry.getKey();
+				break;
+			}
+		}
+
+		return slot;
+	}
+
+	public List<Integer> getSlotNumbersByColor(String carColor) {
+		List<Integer> list = new ArrayList<>();
+
+		for (Map.Entry<Integer, Car> entry : activeParkingMap.entrySet()) {
+			if (carColor.equals(entry.getValue().getColor())) {
+				list.add(entry.getKey());
+			}
+		}
+
+		return list;
 	}
 }

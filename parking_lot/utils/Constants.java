@@ -1,0 +1,11 @@
+package utils;
+
+public interface Constants {
+	String ESCAPE_KEYWORD = "QUIT";
+	String PARK_KEYWORD = "PARK";
+	String REMOVE_KEYWORD = "LEAVE";
+
+	String ANALYTICS1_KEYWORD = "ANALYTICS1";
+	String ANALYTICS2_KEYWORD = "ANALYTICS2";
+	String ANALYTICS3_KEYWORD = "ANALYTICS3";
+}
