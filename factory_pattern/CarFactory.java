@@ -2,6 +2,6 @@
 public class CarFactory {
 
 	public static Car getCar(CarType type) {
-		return type.getConstructor();
+		return type.getConstructor().get();
 	}
 }

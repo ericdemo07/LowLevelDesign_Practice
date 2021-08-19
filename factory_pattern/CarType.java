@@ -1,14 +1,15 @@
+import java.util.function.Supplier;
 
 public enum CarType {
-	FERRARI(new Ferrari()), LAMBORGHINI(new Lamborghini()), PORSCHE(new Porsche());
+	FERRARI(Ferrari::new), LAMBORGHINI(Lamborghini::new), PORSCHE(Porsche::new);
 
-	private final Car constructor;
+	private final Supplier<Car> constructor;
 
-	private CarType(Car constructor) {
+	private CarType(Supplier<Car> constructor) {
 		this.constructor = constructor;
 	}
 
-	public Car getConstructor() {
+	public Supplier<Car> getConstructor() {
 		return constructor;
 	}
 }
