@@ -1,6 +1,7 @@
+package src.main.java.factory;
 
 
-public class Lamborghini implements Car {
+public class Porsche implements Car{
 
 	@Override
 	public int topSpeed() {
@@ -17,7 +18,7 @@ public class Lamborghini implements Car {
 	@Override
 	public int horsePower() {
 		// TODO Auto-generated method stub
-		return 588;
+		return 336;
 	}
 
 	@Override

@@ -1,3 +1,4 @@
+package src.main.java.factory;
 
 public class App {
 
@@ -7,6 +8,5 @@ public class App {
 
 		System.out.println(car1.horsePower());
 		System.out.println(car2.horsePower());
-
 	}
 }

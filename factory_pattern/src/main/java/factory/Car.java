@@ -1,3 +1,4 @@
+package src.main.java.factory;
 
 public interface Car {
 	int topSpeed();

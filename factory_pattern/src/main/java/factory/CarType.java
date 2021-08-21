@@ -1,3 +1,4 @@
+package src.main.java.factory;
 import java.util.function.Supplier;
 
 public enum CarType {
