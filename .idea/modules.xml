@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LowLevelDesign_Practice.iml" filepath="$PROJECT_DIR$/LowLevelDesign_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstract-factory-pattern/abstract-factory-pattern.iml" filepath="$PROJECT_DIR$/abstract-factory-pattern/abstract-factory-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter-pattern/adapter-pattern.iml" filepath="$PROJECT_DIR$/adapter-pattern/adapter-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/cab-booking-system-novice/cab-booking-system-novice.iml" filepath="$PROJECT_DIR$/cab-booking-system-novice/cab-booking-system-novice.iml" />
       <module fileurl="file://$PROJECT_DIR$/load-balancer/load-balancer.iml" filepath="$PROJECT_DIR$/load-balancer/load-balancer.iml" />
       <module fileurl="file://$PROJECT_DIR$/strategy-pattern/strategy-pattern.iml" filepath="$PROJECT_DIR$/strategy-pattern/strategy-pattern.iml" />
