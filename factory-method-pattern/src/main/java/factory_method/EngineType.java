@@ -1,4 +1,4 @@
-package src.main.java.factory_method;
+package factory_method;
 
 public enum EngineType {
 	V8_NATURALLY_ASPIRATED("V8 naturally aspirated"), 

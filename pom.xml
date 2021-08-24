@@ -11,13 +11,16 @@
 
     <modules>
         <module>load-balancer</module>
-        <module>abstract-factory-pattern</module>
         <module>cab-booking-system-novice</module>
+        <module>cab-booking-system-intermediate</module>
+        <module>factory-pattern</module>
+        <module>factory-method-pattern</module>
+        <module>intercepting-filter-pattern</module>
     </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-    
+
 </project>

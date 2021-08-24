@@ -1,4 +1,4 @@
-package src.main.java.factory_method;
+package factory_method;
 
 public class LamborghiniModel implements Car {
 

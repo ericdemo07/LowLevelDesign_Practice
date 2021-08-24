@@ -1,4 +1,4 @@
-package src.main.java.factory;
+package factory;
 
 
 public class Ferrari implements Car{
