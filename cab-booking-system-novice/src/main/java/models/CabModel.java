@@ -42,4 +42,14 @@ public class CabModel {
     public void setIsAvailable(boolean isAvailable) {
         this.isAvailable = isAvailable;
     }
+
+    @Override
+    public String toString() {
+        return "CabModel{" +
+                "id=" + id +
+                ", vehicleNumber='" + vehicleNumber + '\'' +
+                ", coordinateModel=" + coordinateModel +
+                ", isAvailable=" + isAvailable +
+                '}';
+    }
 }

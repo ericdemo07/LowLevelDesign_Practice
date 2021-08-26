@@ -14,7 +14,7 @@ public class App {
         car.setModel("Lamborghini Diablo");
         car.setFrontDoorTested(false);
         car.setBonnetTested(false);
-        car.setHorsePower(500);
+        car.setHorsePower(100);
         car.setTorque(480);
         car.setCarbonEmission(11);
         car.setDriverSideLeft(false);
