@@ -81,14 +81,14 @@ public class Cab {
 
         public Builder() { }
 
-        public Builder from(Cab cab){
-            this.cabUUID = cabUUID;
-            this.brand = brand;
-            this.model = model;
-            this.mileage = mileage;
-            this.manufacturingYear = manufacturingYear;
-            this.papersVerified = papersVerified;
-            this.coordinates = coordinates;
+        public Builder from(Cab cab) {
+            this.cabUUID = cab.getCabUUID();
+            this.brand = cab.getBrand();
+            this.model = cab.getModel();
+            this.mileage = cab.getMileage();
+            this.manufacturingYear = cab.getManufacturingYear();
+            this.papersVerified = cab.isPapersVerified();
+            this.coordinates = cab.getCoordinates();
 
             return this;
         }

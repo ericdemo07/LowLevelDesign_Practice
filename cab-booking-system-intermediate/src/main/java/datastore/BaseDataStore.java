@@ -60,12 +60,10 @@ public final class BaseDataStore {
         return true;
     }
 
-
     public void print() {
-        System.out.println("userDB :" + userVirtualDb);
-        System.out.println("cabDB :" + cabVirtualDb);
-        System.out.println("mappingDB :" + cabsToUserBookingsVirtualDb);
-
+        System.out.println("\nuserDB :" + userVirtualDb);
+        System.out.println("\ncabDB :" + cabVirtualDb);
+        System.out.println("\nmappingDB :" + cabsToUserBookingsVirtualDb);
     }
 
     private BaseDataStore() {
