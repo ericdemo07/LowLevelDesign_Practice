@@ -1,14 +1,10 @@
-package intercepting_filter;
+package authentication_interceptor;
 
-public abstract class AbstractFilter implements Filter {
+import models.user_step_builder.User;
+
+public class AbstractFilter<T> implements Filter<T> {
 
     private Filter next;
-
-    //    public AbstractFilter() { }
-
-    //    public AbstractFilter(Filter next) {
-    //        this.next = next;
-    //    }
 
     @Override
     public void setNext(Filter filter) {
@@ -32,9 +28,9 @@ public abstract class AbstractFilter implements Filter {
     }
 
     @Override
-    public StringBuilder execute(Car car) {
-        if (getNext() != null) {
-            return getNext().execute(car);
+    public StringBuilder execute(T user) {
+        if(getNext() != null){
+            return getNext().execute(user);
         }
 
         return new StringBuilder();

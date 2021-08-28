@@ -3,17 +3,17 @@ package cab_factory;
 import java.util.function.Supplier;
 
 public enum CabType {
-    AWD(AWDTypeCab::new),
-    SEDAN(SedanTypeCab::new),
-    HATCHBACK(HatchbackTypeCab::new);
+    AWD(AWDTypeICabAttributes::new),
+    SEDAN(SedanTypeICabAttributes::new),
+    HATCHBACK(HatchbackTypeICabAttributes::new);
 
-    private final Supplier<Cab> constructor;
+    private final Supplier<ICabAttributes> constructor;
 
-    private CabType(Supplier<Cab> constructor) {
+    private CabType(Supplier<ICabAttributes> constructor) {
         this.constructor = constructor;
     }
 
-    public Supplier<Cab> getConstructor() {
+    public Supplier<ICabAttributes> getConstructor() {
         return constructor;
     }
 }

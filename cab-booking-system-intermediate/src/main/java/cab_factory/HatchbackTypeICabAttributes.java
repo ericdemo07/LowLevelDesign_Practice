@@ -1,13 +1,13 @@
 package cab_factory;
 
-public class SedanTypeCab implements Cab{
+public class HatchbackTypeICabAttributes implements ICabAttributes {
     @Override
     public int ratePerMile() {
-        return 15;
+        return 10;
     }
 
     @Override
     public int distancePerMin() {
-        return 6;
+        return 4;
     }
 }

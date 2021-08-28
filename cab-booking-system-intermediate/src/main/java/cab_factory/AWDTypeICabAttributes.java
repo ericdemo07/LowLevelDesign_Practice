@@ -1,6 +1,6 @@
 package cab_factory;
 
-public class AWDTypeCab implements Cab{
+public class AWDTypeICabAttributes implements ICabAttributes {
     @Override
     public int ratePerMile() {
         return 20;

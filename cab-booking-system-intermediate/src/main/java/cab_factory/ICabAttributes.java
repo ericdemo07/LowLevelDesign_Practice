@@ -1,6 +1,6 @@
 package cab_factory;
 
-public interface Cab {
+public interface ICabAttributes {
     int ratePerMile();
 
     int distancePerMin();

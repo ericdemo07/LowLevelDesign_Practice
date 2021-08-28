@@ -55,6 +55,50 @@ public class User {
         this.addresses = addresses;
     }
 
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public boolean isEmailVerified() {
+        return isEmailVerified;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public boolean isPhoneNumberVerified() {
+        return isPhoneNumberVerified;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public List<String> getAddresses() {
+        return addresses;
+    }
+
+    public long getCreatedAt() {
+        return createdAt;
+    }
+
     @Override
     public String toString() {
         return "User{" +
