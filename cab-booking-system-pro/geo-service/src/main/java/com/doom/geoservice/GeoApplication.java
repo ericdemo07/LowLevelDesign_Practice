@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GeoServiceApplication {
-
+public class GeoApplication {
+    //this service holds information for maps and locations and grids
     public static void main(String[] args) {
-        SpringApplication.run(GeoServiceApplication.class, args);
+        SpringApplication.run(GeoApplication.class, args);
     }
 
 }
