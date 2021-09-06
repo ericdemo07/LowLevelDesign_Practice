@@ -7,9 +7,9 @@ import controllers.IBookingController;
 import controllers.ICabController;
 import controllers.IUserController;
 import controllers.UserController;
-import models.Coordinates;
-import models.cab_builder.Cab;
-import models.user_step_builder.User;
+import com.doom.geoservice.models.Coordinates;
+import com.doom.geoservice.models.cab_builder.Cab;
+import com.doom.geoservice.models.user_step_builder.User;
 import utils.Dummies;
 
 public class App {

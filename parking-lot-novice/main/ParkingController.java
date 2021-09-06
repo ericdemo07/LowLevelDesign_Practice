@@ -3,7 +3,7 @@ package main;
 import java.util.List;
 import java.util.Scanner;
 
-import models.Car;
+import com.doom.geoservice.models.Car;
 import service.HandleParking;
 import utils.Constants;
 

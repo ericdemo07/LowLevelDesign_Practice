@@ -2,7 +2,7 @@ package controllers;
 
 import java.util.UUID;
 
-import models.Coordinates;
+import com.doom.geoservice.models.Coordinates;
 
 public interface IBookingController {
 

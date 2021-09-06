@@ -6,8 +6,8 @@ import authentication_interceptor.AdvanceCabFilter;
 import authentication_interceptor.BaseCabFilter;
 import authentication_interceptor.FilterManager;
 import datastore.BaseDataStore;
-import models.Coordinates;
-import models.cab_builder.Cab;
+import com.doom.geoservice.models.Coordinates;
+import com.doom.geoservice.models.cab_builder.Cab;
 
 public class CabController implements ICabController {
 

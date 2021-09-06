@@ -1,15 +1,18 @@
-package models;
+package com.doom.geoservice.models;
 
 import java.util.UUID;
 
-import lombok.Data;
+import lombok.Builder;
+import lombok.Getter;
 
-@Data
+@Builder
+@Getter
 public class Location {
     UUID locationUUID;
 
     //y-axis, x-axis
     double latitude, longitude;
+
 
     @Override
     public String toString() {

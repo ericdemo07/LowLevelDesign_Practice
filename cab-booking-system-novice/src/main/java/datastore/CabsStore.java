@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import models.CabModel;
-import models.CoordinateModel;
+import com.doom.geoservice.models.CabModel;
+import com.doom.geoservice.models.CoordinateModel;
 
 import static utils.DistanceUtil.distanceInRange;
 

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-import models.RiderModel;
+import com.doom.geoservice.models.RiderModel;
 
 public class RidersStore {
 

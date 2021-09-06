@@ -2,8 +2,8 @@ package controllers;
 
 import java.util.UUID;
 
-import models.Coordinates;
-import models.cab_builder.Cab;
+import com.doom.geoservice.models.Coordinates;
+import com.doom.geoservice.models.cab_builder.Cab;
 
 public interface ICabController {
 

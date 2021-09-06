@@ -1,6 +1,6 @@
 package authentication_interceptor;
 
-import models.cab_builder.Cab;
+import com.doom.geoservice.models.cab_builder.Cab;
 
 public class BaseCabFilter extends AbstractFilter<Cab> {
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.concurrent.ConcurrentSkipListSet;
 
-import models.user_step_builder.User;
+import com.doom.geoservice.models.user_step_builder.User;
 
 public class AdvanceUserFilter extends AbstractFilter<User> {
 

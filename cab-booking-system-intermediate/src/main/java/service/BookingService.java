@@ -5,7 +5,7 @@ import java.util.UUID;
 
 import datastore.BaseDataStore;
 import dynamic_rate_strategy.RateSelector;
-import models.Coordinates;
+import com.doom.geoservice.models.Coordinates;
 
 import static utils.Constants.DEFAULT_RADIUS;
 import static utils.HelperFunctions.distance;

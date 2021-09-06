@@ -6,8 +6,8 @@ import authentication_interceptor.AdvanceUserFilter;
 import authentication_interceptor.BaseUserFilter;
 import authentication_interceptor.FilterManager;
 import datastore.BaseDataStore;
-import models.Coordinates;
-import models.user_step_builder.User;
+
+import com.doom.geoservice.models.user_step_builder.User;
 
 public class UserController implements IUserController {
 

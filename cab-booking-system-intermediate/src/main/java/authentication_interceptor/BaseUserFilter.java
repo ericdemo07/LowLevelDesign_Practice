@@ -1,6 +1,6 @@
 package authentication_interceptor;
 
-import models.user_step_builder.User;
+import com.doom.geoservice.models.user_step_builder.User;
 
 public class BaseUserFilter extends AbstractFilter<User> {
 

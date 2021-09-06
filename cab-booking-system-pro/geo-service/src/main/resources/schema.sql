@@ -7,5 +7,5 @@ CREATE TABLE places
     latitude  DECIMAL(8, 6) NOT NULL,
     longitude DECIMAL(9, 6) NOT NULL,
     category  ENUM ('COFFEE_SHOP','RESTAURANT','THEATRE', 'PIZZA_RESTAURANT'),
-    grid_id    UUID          NOT NULL
+    grid_id   UUID          NOT NULL
 );

@@ -1,8 +1,8 @@
-package models.cab_builder;
+package com.doom.geoservice.models.cab_builder;
 
 import java.util.UUID;
 
-import models.Coordinates;
+import com.doom.geoservice.models.Coordinates;
 
 public class Cab {
     private final UUID cabUUID;

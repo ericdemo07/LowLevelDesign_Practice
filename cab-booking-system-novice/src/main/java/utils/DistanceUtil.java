@@ -1,6 +1,6 @@
 package utils;
 
-import models.CoordinateModel;
+import com.doom.geoservice.models.CoordinateModel;
 
 public class DistanceUtil {
 

@@ -1,7 +1,5 @@
 package authentication_interceptor;
 
-import models.user_step_builder.User;
-
 public class AbstractFilter<T> implements Filter<T> {
 
     private Filter next;

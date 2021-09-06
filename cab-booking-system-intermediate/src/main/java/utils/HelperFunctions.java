@@ -1,6 +1,6 @@
 package utils;
 
-import models.Coordinates;
+import com.doom.geoservice.models.Coordinates;
 
 public final class HelperFunctions {
 

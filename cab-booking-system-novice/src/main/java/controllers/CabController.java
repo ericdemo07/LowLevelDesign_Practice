@@ -3,8 +3,8 @@ package controllers;
 import java.util.UUID;
 
 import datastore.CabsStore;
-import models.CabModel;
-import models.CoordinateModel;
+import com.doom.geoservice.models.CabModel;
+import com.doom.geoservice.models.CoordinateModel;
 
 public class CabController {
 

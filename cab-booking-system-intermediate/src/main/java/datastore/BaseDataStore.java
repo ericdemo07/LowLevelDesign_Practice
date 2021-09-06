@@ -6,9 +6,9 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
-import models.Coordinates;
-import models.cab_builder.Cab;
-import models.user_step_builder.User;
+import com.doom.geoservice.models.Coordinates;
+import com.doom.geoservice.models.cab_builder.Cab;
+import com.doom.geoservice.models.user_step_builder.User;
 
 import static utils.HelperFunctions.distance;
 

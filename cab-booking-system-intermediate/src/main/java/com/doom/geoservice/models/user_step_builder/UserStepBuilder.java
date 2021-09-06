@@ -1,4 +1,4 @@
-package models.user_step_builder;
+package com.doom.geoservice.models.user_step_builder;
 
 import java.util.ArrayList;
 import java.util.List;

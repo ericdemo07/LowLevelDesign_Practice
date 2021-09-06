@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.concurrent.ConcurrentSkipListSet;
 
-import models.cab_builder.Cab;
+import com.doom.geoservice.models.cab_builder.Cab;
 
 public class AdvanceCabFilter extends AbstractFilter<Cab> {
 

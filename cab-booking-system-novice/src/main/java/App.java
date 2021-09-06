@@ -3,7 +3,7 @@ import controllers.RiderController;
 import datastore.CabsStore;
 import datastore.RidersStore;
 import datastore.TripsStore;
-import models.CabModel;
+import com.doom.geoservice.models.CabModel;
 
 public class App {
 

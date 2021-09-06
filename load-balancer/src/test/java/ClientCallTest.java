@@ -19,7 +19,7 @@ public class ClientCallTest {
     public void testClientApiCallJava8() {
         APODModel apodModel = java8HttpClient.makeClientApiCall("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
 
-        Assertions.assertTrue("image".equals(apodModel.mediaType));
+        Assertions.assertTrue("video".equals(apodModel.mediaType));
     }
 
     @Test
@@ -35,7 +35,7 @@ public class ClientCallTest {
             e.printStackTrace();
         }
 
-        Assertions.assertTrue("image".equals(apodModel.mediaType));
+        Assertions.assertTrue("video".equals(apodModel.mediaType));
     }
 
     @Test
@@ -51,6 +51,6 @@ public class ClientCallTest {
             e.printStackTrace();
         }
 
-        Assertions.assertTrue("image".equals(apodModel.mediaType));
+        Assertions.assertTrue("video".equals(apodModel.mediaType));
     }
 }

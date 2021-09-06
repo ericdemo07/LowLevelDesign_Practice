@@ -2,7 +2,7 @@ package controllers;
 
 import java.util.UUID;
 
-import models.user_step_builder.User;
+import com.doom.geoservice.models.user_step_builder.User;
 
 public interface IUserController {
 

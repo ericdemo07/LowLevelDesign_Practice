@@ -2,10 +2,10 @@ package utils;
 
 import java.util.UUID;
 
-import models.Coordinates;
-import models.cab_builder.Cab;
-import models.user_step_builder.User;
-import models.user_step_builder.UserStepBuilder;
+import com.doom.geoservice.models.Coordinates;
+import com.doom.geoservice.models.cab_builder.Cab;
+import com.doom.geoservice.models.user_step_builder.User;
+import com.doom.geoservice.models.user_step_builder.UserStepBuilder;
 
 public class Dummies {
 

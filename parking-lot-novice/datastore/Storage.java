@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 
-import models.Car;
-import models.Parking;
+import com.doom.geoservice.models.Car;
+import com.doom.geoservice.models.Parking;
 
 public class Storage {
 	int size;

@@ -1,4 +1,4 @@
-package models.user_step_builder;
+package com.doom.geoservice.models.user_step_builder;
 
 import java.util.List;
 import java.util.UUID;

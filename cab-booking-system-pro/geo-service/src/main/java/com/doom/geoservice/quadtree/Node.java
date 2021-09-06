@@ -1,9 +1,9 @@
-package quadtree;
+package com.doom.geoservice.quadtree;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import models.Location;
+import com.doom.geoservice.models.Location;
 
 public class Node {
     List<Location> locationList;

@@ -2,7 +2,7 @@ package controllers;
 
 import datastore.RidersStore;
 import datastore.TripsStore;
-import models.RiderModel;
+import com.doom.geoservice.models.RiderModel;
 
 public class RiderController {
 

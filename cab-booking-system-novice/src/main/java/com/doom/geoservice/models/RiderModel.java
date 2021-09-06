@@ -1,4 +1,4 @@
-package models;
+package com.doom.geoservice.models;
 
 import java.util.UUID;
 
