@@ -1,4 +1,4 @@
-package com.doom.geoservice.models;
+package models;
 
 public class Parking extends Car {
 

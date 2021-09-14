@@ -3,7 +3,8 @@ package service;
 import java.util.List;
 
 import datastore.Storage;
-import com.doom.geoservice.models.Car;
+import models.Car;
+
 
 public class HandleParking {
 
