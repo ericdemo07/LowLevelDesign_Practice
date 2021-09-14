@@ -21,6 +21,7 @@
         <module>strategy-pattern</module>
         <module>parking-lot-novice</module>
         <module>adapter-pattern</module>
+        <module>trading-system-novice</module>
     </modules>
 
     <properties>
