@@ -17,6 +17,7 @@
         <module>factory-method-pattern</module>
         <module>intercepting-filter-pattern</module>
         <module>cab-booking-system-pro</module>
+        <module>parking-lot-intermediate</module>
     </modules>
 
     <properties>
