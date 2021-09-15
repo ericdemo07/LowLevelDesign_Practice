@@ -14,6 +14,7 @@
     <modules>
         <module>placing-trade-service</module>
         <module>executing-order-service</module>
+        <module>price-sync-service</module>
     </modules>
 
     <properties>
