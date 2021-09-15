@@ -11,7 +11,7 @@ public class App {
     private static final String BASE_PATH = Paths.get("parking-lot-intermediate").toAbsolutePath().toString();
 
     public static void main(String[] args) throws Exception {
-        //args = new String[]{"file_inputs.txt"};
+        args = new String[]{"file_inputs.txt"};
         if (args != null && args.length == 1) {
             final String filePath = BASE_PATH + File.separator + args[0];
             if (!new File(filePath).isFile()) {

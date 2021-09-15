@@ -16,7 +16,7 @@ public class Orchestrate {
         this.apiClient = new APIClient(this.redisClient, this.COIN_IDS);
     }
 
-    
+
     public static void main(String... args) throws URISyntaxException {
         Orchestrate orchestrate = new Orchestrate();
         orchestrate.scheduleRun();

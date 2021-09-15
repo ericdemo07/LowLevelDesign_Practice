@@ -1,2 +1,4 @@
-package com.parkinglot.parkingstrategy;public class StrategyManager {
+package com.parkinglot.parkingstrategy;
+
+public class StrategyManager {
 }
