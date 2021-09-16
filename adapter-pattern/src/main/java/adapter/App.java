@@ -1,8 +1,8 @@
-package main.java.adapter;
+package adapter;
 
 public class App {
 
-    public static void main(String... args){
+    public static void main(String... args) {
         Ferrari ferrari = new Ferrari(new PackageUpgradeAdapter());
 
         System.out.println(ferrari.horsePower());

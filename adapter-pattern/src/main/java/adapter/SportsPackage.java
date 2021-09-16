@@ -1,4 +1,4 @@
-package main.java.adapter;
+package adapter;
 
 public class SportsPackage {
 

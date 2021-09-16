@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cab-booking-system-pro</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>driver-location-service</module>
+        <module>geo-service</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

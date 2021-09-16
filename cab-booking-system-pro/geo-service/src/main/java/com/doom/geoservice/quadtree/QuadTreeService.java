@@ -8,6 +8,7 @@ import java.util.List;
 
 import static com.doom.geoservice.utils.Constants.NODE_BREAKING_THRESHOLD;
 
+
 public final class QuadTreeService {
 
     private static volatile QuadTreeService instance;
