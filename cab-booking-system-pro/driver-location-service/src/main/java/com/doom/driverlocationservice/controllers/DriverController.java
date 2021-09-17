@@ -2,12 +2,14 @@ package com.doom.driverlocationservice.controllers;
 
 
 import com.doom.driverlocationservice.models.Coordinates;
+import com.doom.driverlocationservice.models.DriverAvailabilityModel;
 import com.doom.driverlocationservice.redis.RedisClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
 import java.util.UUID;
 
 @RestController
@@ -48,14 +50,14 @@ public class DriverController implements IDriverLocationController {
     }
 
     @Override
-    public boolean updateAvailability(UUID driverId, boolean isAvailable) {
+    public boolean updateAvailability(UUID driverId, DriverAvailabilityModel driverAvailability) {
         boolean success = false;
 
         try {
-            redisClient.updateDriverAvailability(driverId, isAvailable);
+            redisClient.updateDriverAvailability(driverId, driverAvailability);
             success = true;
         }
-        catch (JsonProcessingException e) {
+        catch (IOException e) {
             e.printStackTrace();
         }
         return success;

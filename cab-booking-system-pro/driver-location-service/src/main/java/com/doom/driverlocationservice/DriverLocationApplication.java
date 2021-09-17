@@ -10,5 +10,4 @@ public class DriverLocationApplication {
     public static void main(String[] args) {
         SpringApplication.run(DriverLocationApplication.class, args);
     }
-
 }

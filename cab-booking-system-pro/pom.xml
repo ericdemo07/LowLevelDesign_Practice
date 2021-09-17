@@ -15,6 +15,7 @@
     <modules>
         <module>driver-location-service</module>
         <module>geo-service</module>
+        <module>trip-service</module>
     </modules>
 
     <properties>
