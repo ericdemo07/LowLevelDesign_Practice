@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.UUID;
 
+import static com.doom.driverlocationservice.utils.MathUtils.roundToTwoDecimal;
+
 @RestController
 @RequestMapping("driver-location-service")
 public class DriverQueryController implements IDriverQueryController {
@@ -29,7 +31,8 @@ public class DriverQueryController implements IDriverQueryController {
 
         while (list.size() < 2 && count <= 4) {
             for (double[] dir : dirs) {
-                double newLat = latitude + (dir[0] * count), newLng = longitude + (dir[1] * count);
+                double newLat = roundToTwoDecimal(latitude) + (dir[0] * count);
+                double newLng = roundToTwoDecimal(longitude) + (dir[1] * count);
 
                 List<UUID> tempList = redisClient.getMembers(buildCoordinates(newLat, newLng));
                 list.addAll(tempList);

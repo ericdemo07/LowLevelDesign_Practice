@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -15,6 +16,7 @@ public class ClientCallTest {
         java11HttpClient = new Java11HttpClient();
     }
 
+    @Disabled("until work begins on this module")
     @Test
     public void testClientApiCallJava8() {
         APODModel apodModel = java8HttpClient.makeClientApiCall("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
@@ -22,6 +24,7 @@ public class ClientCallTest {
         Assertions.assertTrue("image".equals(apodModel.mediaType));
     }
 
+    @Disabled("until work begins on this module")
     @Test
     public void testSyncClientApiCallJava11() {
         APODModel apodModel = null;
@@ -38,6 +41,7 @@ public class ClientCallTest {
         Assertions.assertTrue("image".equals(apodModel.mediaType));
     }
 
+    @Disabled("until work begins on this module")
     @Test
     public void testAsyncClientApiCallJava11() {
         APODModel apodModel = null;

@@ -16,6 +16,7 @@
         <module>driver-location-service</module>
         <module>geo-service</module>
         <module>trip-service</module>
+        <module>websocket-manager</module>
     </modules>
 
     <properties>
