@@ -22,6 +22,7 @@
         <module>parking-lot-novice</module>
         <module>adapter-pattern</module>
         <module>trading-system-novice</module>
+        <module>search-engine-novice</module>
     </modules>
 
     <properties>
