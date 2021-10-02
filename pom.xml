@@ -23,6 +23,7 @@
         <module>adapter-pattern</module>
         <module>trading-system-novice</module>
         <module>search-engine-novice</module>
+        <module>food-delivery-service-novice</module>
     </modules>
 
     <properties>
