@@ -24,6 +24,8 @@
         <module>trading-system-novice</module>
         <module>search-engine-novice</module>
         <module>food-delivery-service-novice</module>
+        <module>payment-system</module>
+        <module>movie-booking-system</module>
     </modules>
 
     <properties>

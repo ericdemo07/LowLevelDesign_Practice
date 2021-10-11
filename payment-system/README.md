@@ -1,0 +1,3 @@
+- https://jepsen.io/consistency
+- https://www.linkedin.com/pulse/system-design-practice-designing-payment-avik-das/
+- https://avikdas.com/2020/05/11/scalability-concepts-the-reliability-queue.html
