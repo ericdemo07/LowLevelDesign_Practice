@@ -26,6 +26,8 @@
         <module>food-delivery-service-novice</module>
         <module>payment-system</module>
         <module>movie-booking-system</module>
+        <module>rate-limiter-novice</module>
+        <module>rate-limiter-intermediate</module>
     </modules>
 
     <properties>
