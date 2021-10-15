@@ -22,7 +22,7 @@ public class ValidationController implements IValidation {
 
     @Override
     public String validateCard(String userId, CreditCard creditCard) {
-        boolean valid = true;
+        final boolean valid = true;
 
         if (valid) {
             creditCardInformationRepository.save(prepareCreditCardInformation(userId, creditCard));
